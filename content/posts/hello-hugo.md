@@ -1,7 +1,7 @@
 ---
 title: "Hello Hugo"
-date: 2025-06-26
+date: 2025-06-29
 draft: false
 ---
 
-Welcome to **your first Hugo post**! This is generated manually as a test.
+This is a test post to confirm the Hugo + PaperMod theme is working.

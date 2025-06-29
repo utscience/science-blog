@@ -1,20 +1,25 @@
 baseURL: "https://utscience.github.io/science-blog/"
 languageCode: "en-us"
-title: "Science Daily"
+title: "Utscience Blog"
 theme: "PaperMod"
 
+params:
+  homeInfoParams:
+    Title: "Welcome to Utscience Blog"
+    Content: "A science blog powered by Hugo + PaperMod"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  disableThemeToggle: false
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 2
-
-params:
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
+      weight: 20
